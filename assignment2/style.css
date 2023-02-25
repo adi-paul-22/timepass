@@ -1,12 +1,36 @@
-.img{
-   
-   
-}
 
-/* .cover-img{
-    height:50px;
-    width:50px;
-    /* z-index: 1;
+body{
+  margin: 0px;
+  padding: 0px;
+}
+   img {
+    justify-content: center;
+    position: absolute;
+    z-index: -1;
+    width:100%;
+    height:auto;
+   }
+   .img2{
     position: relative;
-    justify-content: center; */
-/* } */ 
+    width:70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+   }
+   .btns{
+    flex:auto;
+    flex-direction: row;
+    position: relative;
+    top:auto ;
+    justify-content: center;
+    z-index: 2;
+    color: blue;
+   }
+   button{
+    z-index: 3;
+    color: blue;
+    background-color: grey;
+   }
+
+   
