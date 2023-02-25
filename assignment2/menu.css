@@ -1,55 +1,14 @@
-body,html{
+body{
   margin: 0px;
   padding: 0px;
-  height: 100%;
 }
-   
-   .img2{
-     position: absolute; 
-    left:30%;
-    right:30%; 
-    overflow:hidden;
-    transform: translate(6.5%,-10%);
-    z-index:1; 
-   }
-
-   .img2 img{
-
-    display: block;
-    width:600px;
+   img {
+    justify-content: center;
+    position: absolute;
+    z-index: -1;
+    width:100%;
     height:auto;
    }
-   .btns{
-    display: flex;
-    flex-direction: row;
-    position: relative;
-    align-content: center;
-    justify-content: center;
-    z-index: 2;
-    
-   }
-
-   button{
-    cursor: pointer;
-    border-radius: 5px 5px 0 0;
-    height:2.5rem;
-
-   }
-   .button1{
-    padding:0 40px;
-    z-index: 3;
-    color: blue;
-    background-color: fff;
-    border-color: purple;
-   }
-
-.banner{
-  background-image: url('/assignment2/images/bg_image.jpg');
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
    .head1{
     text-align: center;
     font-size: large;
@@ -59,6 +18,45 @@ body,html{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
    }
 
+   .menu-bg{
+    margin-top:15px;
+    width:100%;
+    height:150px;
+    display: block;
+    background-image:linear-gradient(to bottom right ,rgb(183, 22, 49),yellow);
+   }
+   .button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+ul{
+  list-style-type: none;
+  display: flex;
+  flex-wrap:wrap;
+}
+
+li{
+  height:40vh;
+  flex-grow:1;
+  padding:5px;
+  z-index:2;
+  justify-content: space-between;
+  margin-top:0px;
+  
+}
+
+.img-1{
+  width:120px;
+  height:145px;
+  object-fit:cover;
+  vertical-align:bottom;
+}
+
+.placing-button{
+  margin-left:20px;
+  margin-top: 160px;
+}
 button:hover{
   transform:scale(1.3);
   background-color: hsl(54, 100%, 50%);;
@@ -103,4 +101,3 @@ submit-btn{
     width:40px;
     
 }
-   
