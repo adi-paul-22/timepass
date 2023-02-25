@@ -1,4 +1,3 @@
-
 body{
   margin: 0px;
   padding: 0px;
@@ -11,12 +10,12 @@ body{
     height:auto;
    }
    .img2{
-    position: relative;
+     position: relative; 
     width:70%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-
+    height:60%;
    }
    .btns{
     flex:auto;
@@ -27,10 +26,84 @@ body{
     z-index: 2;
     color: blue;
    }
-   button{
+   .button1{
     z-index: 3;
     color: blue;
     background-color: grey;
    }
 
+
+
+
+
+
+
+
+
+
+
+
+
+   .head1{
+    text-align: center;
+    font-size: large;
+    border:5px black solid;
+    padding:0px;
+    background-color: antiquewhite;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+   }
+
+   .menu-bg{
+    margin-top:15px;
+    width:100%;
+    height:150px;
+    display: block;
+    background-image:linear-gradient(to bottom right ,pink,yellow);
+   }
+   .button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+ul{
+  list-style-type: none;
+  display: flex;
+  flex-wrap:wrap;
+}
+
+li{
+  height:40vh;
+  flex-grow:1;
+  padding:5px;
+  z-index:2;
+  justify-content: space-evenly;
+  margin-top:0px;
+  
+}
+
+.img-1{
+  width:120px;
+  height:145px;
+  object-fit:cover;
+  vertical-align:bottom;
+}
+
+.placing-button{
+  margin-left:20px;
+  margin-top: 160px;
+}
+button:hover{
+  transform:scale(1.3);
+  background-color: hsl(54, 100%, 50%);;
+}
+
+.head2{
+
+  margin-top:60px;
+}
+
+  
+  
+ 
+  
    
